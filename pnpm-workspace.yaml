@@ -1,0 +1,14 @@
+packages:
+  - apps/*
+  - packages/*
+allowBuilds:
+  argon2: true
+  esbuild: true
+minimumReleaseAgeExclude:
+  - '@tanstack/query-core@5.104.1'
+  - '@tanstack/react-query@5.104.1'
+  - framer-motion@14.0.0
+  - motion-dom@14.0.0
+  - motion-utils@14.0.0
+  - motion@14.0.0
+  - nestjs-pino@5.3.1
