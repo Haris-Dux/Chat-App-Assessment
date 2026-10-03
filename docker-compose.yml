@@ -19,7 +19,7 @@ services:
     build:
       context: .
       dockerfile: apps/api/Dockerfile
-    env_file: apps/api/.env
+    env_file:  /root/Naila-Arts/.env.chatapp
     environment:
       NODE_ENV: production
       DATABASE_URL: postgres://concierge:concierge@db:5432/concierge
